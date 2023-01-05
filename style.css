@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+   align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: 6vmax;
+    padding: 2%;
+    position: absolute;
+    top: 2%;
+    z-index: 3;
+    
+}
+.navimg{
+    width: 5%;
+    
+}
+nav img:hover{
+    transform: rotate(15deg);
+}
+i{
+    font-size: 2vmax;
+}
+
+nav img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 1vmax 2vmax;
+    background-color: palevioletred;
+    border-radius: 20px;
+    font-weight: 900;
+    /* border: none; */
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+button:hover{
+    background-color: white;
+    color: palevioletred;
+    transform: scalex(1.1);
+    cursor: pointer;
+    
+}
+.container{
+    width: 100%;
+    height: 45vmax;
+    background-color: antiquewhite;
+    line-height: 5vmax;
+    font-size: 1.5vmax;
+    border-top: 1px solid transparent;
+    overflow: hidden;
+    position: relative;
+    
+}
+video{
+    width: 100%;
+    height: 55vmax;
+}
+
+
+.text{
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 4%;
+    position: absolute;
+    top: 0%;
+    color: white;
+    width: 100%;
+    
+}
+.txt1{
+    width: 50%;
+}
+
+.txt2{
+    width: 50%;
+    position: absolute;
+    top: -10%;
+    left: 40%;
+}
+.txt2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.container h1{
+    margin: 3% 0;
+}
+
+
+span{
+    color: palevioletred;
+}
+
+
+.container1{
+    width: 100%;
+    height: 20vmax;
+    /* background-color: aquamarine; */
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.logos{
+    width: 20%;
+    height: 80%;
+    display: inline-block;
+    margin-right: 2%;
+    margin-top: 2%;
+    
+}
+.logos img{
+    width: 100%;
+     height: 100%;
+}
